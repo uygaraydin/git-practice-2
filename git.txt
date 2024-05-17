@@ -1,0 +1,137 @@
+
+1 - Öncelikle herkes bir kullanıcı kimliği oluştursun.
+	-Kullanıcı adı ve kullanıcı maili olacak şekilde
+
+2 - Oluşturulan bu kullanıcı bilgileri, farklı bilgilerinde içinde olduğu liste içinde gösterilerek kontrol edilsin.
+
+3 - Mevcut çalışılan dosya yolu ekranda gösterilsin.
+
+4 - Bir üst dizine geçilerek, bu üst dizinin ne olduğuna bakılsın ve kontrol edilsin.
+
+5 - Üst dizine geçilmeden önce hangi dosya içinde çalışılıyorsa tekrar o dosyanın içine girilsin.
+
+6 - Masaüstüne geçiş yapılsın
+
+7 - Masaüstünde app adında bir klasör oluşturulsun.
+
+8 - Bu oluşturulan klasörün içine girilsin.
+
+9 - Bu klasörün içine girdikten sonra,  indeks1.html , indeks2.html, test1.txt ve test2.txt dosyaları oluşturulsun.
+
+9 - Bu klasör içinde oluşturulan dosyaların ne olduğu git ekranında gösterilsin.
+
+10- app klasörü içinde .git uzantılı (artık git'i kullanmaya başlayacağımız dosya) dosya oluşturulsun. 
+
+Bu dosya yukarıda klasör içinde oluşturulan dosyalar(indeks1.html , indeks2.html, test1.txt ve test2.txt)
+
+gibi değil, çok önemli farklı bir komutla oluşturulsun.       
+
+11 - Daha sonra app klasörü içinde oluşturulan .git uzantılı dosya (gizli dosya) ve diğer tüm dosyalar git ekranında gösterilsin.
+
+12 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.
+
+13 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın.
+
+14 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.
+
+15 - Staging area içine atılan dosyalar "app klasörü içindeki dosyalar eklendi" isminde commit edilsin.
+
+16 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+17 - git ekranında remove komutu kullanılarak test1.txt ve test2.txt dosyası silinsin.
+
+18 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.
+
+19 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın. (aktarılan dosyalar yeşil renkte deleted : .....)
+
+20 - Staging area içine atılan dosyalar "silinen text1 ve text2 dosyası eklendi." isminde commit edilsin.
+
+21 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+22 - app klasörü içinde "dosya" adında yeni bir klasör oluşturulsun.
+
+23 - Bu oluşturulan "dosya" adında ki klasör içine girilsin.
+
+24 - Bu klasör içinde "dosya1.txt" ve "dosya2.txt" dosyaları oluşturulsun.
+
+25 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin. (./ olarak staging areaya geçmeyi bekleyen yapıyı gör)
+
+26 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın. (aktarılan dosyalar yeşil renkte)
+
+27 - Staging area içine atılan dosyalar "İçerisinde dosya1 ve dosya2 dosyaları olan,  dosya klasörü eklendi " şeklinde commit edilsin.
+
+28 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+29 - Daha sonra bir üst dizine geçilsin.
+
+30 - Üst dizine geçtikten sonra eklenen klasör rm komutuyla birlikte kaldırılsın.
+
+31 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.(aktarılan dosyalar yeşil renkte deleted : .....)
+
+32 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın. (aktarılan dosyalar yeşil renkte)
+
+33 - Staging area içine atılan dosyalar "Kaldırılan dosya adında ki klasör eklendi " şeklinde commit edilsin.  
+
+34 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+35 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.
+
+36 - app klasörü içinde "elma.txt" diye bir dosya oluşturulsun.
+
+37 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.
+
+38 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın.
+
+39 - Staging area içine atılan dosyalar "elma dosyası eklendi " şeklinde commit edilsin.
+
+40 - Eklenen commit git ekranında liste halinde gösterilsin.  
+
+41 - Eklenen "elma.txt" dosyası "kiraz.txt" isminde olacak şekilde değiştirilsin.
+
+42 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin. (renamed ifadesine dikkat)
+
+43 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın.
+
+44 - Staging area içine atılan dosyalar "elma dosyası kiraz dosyası isminde yeniden isimlendirildi " şeklinde commit edilsin.
+
+45 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+46 - app klasörü içinde "files" adında yeni bir klasör oluşturulsun.
+
+47 - kiraz.txt olarak değiştirmiş olduğumuz bu dosyası "files" klasörü içine taşınsın.
+
+48 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.(renamed kiraz.txt -> files/kiraz.txt yapısına dikkat)
+
+49 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın.
+
+50 - Staging area içine atılan dosyalar "ismi kiraz olarak değiştirilen dosya yeni olusturulan files dosyasına taşındı" şeklinde commit edilsin. 
+
+51 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+52 - app klasörü içinde "istanbul.txt" adında yeni bir dosya oluşturulsun.
+
+53 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin. (kırmızı renk dikkat)
+
+54 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın.
+
+55 - Staging area içine atılan dosyalar "istanbul adında bir dosya eklendi" şeklinde commit edilsin.
+
+56 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+57 - istanbul.txt dosyası "files" klasörüne taşınırken aynı anda ismi "trabzon.txt" olarak değiştirilsin.
+
+58 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin. (renamed istanbul.txt -> files/trabzon.txt yapısına dikkat)
+
+59 - Bu bölüm içinde yer alan bütün dosyalar tek bir şekilde yani toplu olarak stage arae bölgesine aktarılsın.
+
+60 - Staging area içine atılan dosyalar "istanbul adında ki dosya files klasörüne taşınırken aynı anda ismi trabzon olarak değiştirildi." şeklinde commit edilsin.
+
+61 - Eklenen commit git ekranında liste halinde gösterilsin.
+
+62 -  Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölüm ekranda gösterilsin.
+
+63 - Henüz staging areaya geçmediğimiz özelliklerin ve dosyaların bulunduğu bölümünü (status), aynı görevi yapacak şekilde;
+
+	herkes kendi isminde dönüştürerek aynı amaçla kullansın. (git status ile mesela git tolgahan aynı işi yapsın gibi) 
+
+64 – Değiştirilen status ismi ile deneme yapılsın ve statusun yaptığı işi yapıp yapmadığı kontrol edilsin.
